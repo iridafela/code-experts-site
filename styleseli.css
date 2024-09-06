@@ -10,6 +10,42 @@
   justify-content: center;
 }
 
+.carousel .carousel-item img {
+    max-height: 400px;
+    min-width: auto;
+}
 .kati {
     color: aliceblue;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+img{
+    width: 300px;
+    
+}
+
+.image-btn {
+display: flex;
+flex-direction: column;
+}
+
+.images-recycle{
+    height: 200px;
+}
+
+.clas-s {
+  background: rgb(206, 204, 204);  
+}
+
+h2 {
+    margin: 0px 20px;
+}
+
+p {
+    margin: 0px 20px;
 }
